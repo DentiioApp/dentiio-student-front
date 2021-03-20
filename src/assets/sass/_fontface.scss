@@ -1,0 +1,52 @@
+// _fontface.scss
+$fontNameCustom: "Nunito";
+
+@font-face {
+  font-display: swap;
+  font-family: "Nunito";
+  src: url("~@/assets/fonts/Nunito/Nunito-Bold.eot");
+  src: url("~@/assets/fonts/Nunito/Nunito-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("~@/assets/fonts/Nunito/Nunito-Bold.woff2") format("woff2"),
+    url("~@/assets/fonts/Nunito/Nunito-Bold.woff") format("woff"),
+    url("~@/assets/fonts/Nunito/Nunito-Bold.ttf") format("truetype"),
+    url("~@/assets/fonts/Nunito/Nunito-Bold.svg#Nunito-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Nunito";
+  src: url("~@/assets/fonts/Nunito/Nunito-Regular.eot");
+  src: url("~@/assets/fonts/Nunito/Nunito-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("~@/assets/fonts/Nunito/Nunito-Regular.woff2") format("woff2"),
+    url("~@/assets/fonts/Nunito/Nunito-Regular.woff") format("woff"),
+    url("~@/assets/fonts/Nunito/Nunito-Regular.ttf") format("truetype"),
+    url("~@/assets/fonts/Nunito/Nunito-Regular.svg#Nunito-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.btn {
+  font-family: $fontNameCustom;
+}
+
+h1 {
+  font-size: 1.5rem; // 24 px
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
